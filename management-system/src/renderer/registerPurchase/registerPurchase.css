@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+}
+
+.bodyPurchase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Karla', sans-serif;
+    width: 70%;
+}
+
+.bodyPurchase h1 {
+    color: #a9d2e8;
+}
+
+.elements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    padding-top: 60px;
+}
+
+/*Body General*/
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup label {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.inputMaterial, 
+.inputPreco, 
+.inputQuantity, 
+.inputDate {
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.inputMaterial:focus, 
+.inputPreco:focus, 
+.inputQuantity:focus, 
+.inputDate:focus { /*Borda black enquanto esteja selecionado*/
+    border: 1px solid black;
+}
+
+/*Fim Body General*/

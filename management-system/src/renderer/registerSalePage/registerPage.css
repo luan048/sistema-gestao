@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+}
+
+.bodyRegister {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Karla', sans-serif;
+    width: 70%;
+}
+
+.bodyRegister h1 {
+    color: #a9d2e8;
+}
+
+.elementsInput {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    padding-top: 60px;
+}
+
+/*Body General*/
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup label {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.inputClient, 
+.inputProduct, 
+.inputPrice, 
+.inputDate {
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.inputClient:focus, 
+.inputProduct:focus, 
+.inputPrice:focus, 
+.inputDate:focus { /*Borda black enquanto esteja selecionado*/
+    border: 1px solid black;
+}
+
+.button {
+    width: 50%;
+    height: 40px;
+    margin: auto;
+    margin-top: 80px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: #b56985;
+    font-weight: bold;
+}
+
+.button:hover {
+    color: white;
+}
+
+/*Fim do Body*/

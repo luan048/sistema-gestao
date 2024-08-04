@@ -1,0 +1,82 @@
+.elementsListRequests {
+    display: flex;
+}
+
+.ghost {
+    width: 100%;
+    height: 290px;
+    position: fixed;
+    background-color: white;
+    margin-top: -300px;
+}
+
+.accordions {
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+.div-accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.div-accordion-title:hover {
+    background: #e0e7ff;
+}
+
+.accordion-title {
+    font-weight: bold;
+    font-size: 25px;
+    color: #a9d2e8;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.accordion-content.expanded {
+    max-height: 500px;
+}
+
+.accordion-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.accordion-content th, .accordion-content td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    width: 150px;
+    max-width: 150px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.totalPriceMonth {
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    margin: 10px 0;
+}
+
+.mensgFault {
+    font-size: 16px;
+    font-weight: bold;
+    color: #b56985;
+    text-align: center;
+}

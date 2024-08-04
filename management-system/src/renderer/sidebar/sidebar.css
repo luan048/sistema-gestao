@@ -1,0 +1,71 @@
+.siderbar {
+  width: 14%;
+  height: 100vh;
+  background-color: #a9d2e8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.siderbar.fixed {
+  width: 14%;
+  height: 100vh;
+  background-color: #a9d2e8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+}
+
+/*Body Sidebar*/
+.conteudo-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+  
+.logoMenu {
+  width: 100%;
+  max-width: 120px;
+}
+
+.faHouse {
+  font-size: 25px;
+  position: absolute;
+  margin-top: 150px;
+  cursor: pointer;
+}
+
+.btn-cadastrar, 
+.btn-visualizar, 
+.btn-materiais, 
+.btn-desempenho {
+  width: 90%;
+  max-width: 90%;
+  height: 30px;
+  font-size: calc(0.8rem + 0.2vw);
+  margin: 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #b56985;
+  color: white;
+  font-family: 'Karla', sans-serif;
+  outline: none;
+  white-space: nowrap; /*Evita quebra de linha*/
+  overflow: hidden; /*Quando o text é maior que o botão, é oculto*/
+  text-overflow: ellipsis; /*Adiciona ... para o que foi oculto*/
+}
+
+.btn-cadastrar:hover, 
+.btn-visualizar:hover, 
+.btn-materiais:hover, 
+.btn-desempenho:hover {
+  color: black;
+}
+
+/*Fim do Body Sidebar*/

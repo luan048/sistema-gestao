@@ -1,0 +1,52 @@
+.containerPerformace {
+    display: flex;
+}
+
+.bodyPerformace {
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+.div-title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.titles {
+    font-weight: bold;
+    font-size: 25px;
+    color: #a9d2e8;
+}
+
+.section {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    transition: transform 0.2s;
+}
+
+.section:hover {
+    transform: scale(1.02);
+}
+
+.elementsTable p {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    color: #333;
+}
+
+.mensg {
+    font-size: 16px;
+    font-weight: bold;
+    color: #b56985;
+    text-align: center;
+}
